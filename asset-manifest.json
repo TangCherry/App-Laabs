@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/App-Laaps/static/css/main.4f03d9c7.chunk.css",
-    "main.js": "/App-Laaps/static/js/main.05740d12.chunk.js",
-    "main.js.map": "/App-Laaps/static/js/main.05740d12.chunk.js.map",
+    "main.css": "/App-Laaps/static/css/main.b2cccaf7.chunk.css",
+    "main.js": "/App-Laaps/static/js/main.b84d8d2e.chunk.js",
+    "main.js.map": "/App-Laaps/static/js/main.b84d8d2e.chunk.js.map",
     "runtime-main.js": "/App-Laaps/static/js/runtime-main.19f9a573.js",
     "runtime-main.js.map": "/App-Laaps/static/js/runtime-main.19f9a573.js.map",
-    "static/js/2.768b13bd.chunk.js": "/App-Laaps/static/js/2.768b13bd.chunk.js",
-    "static/js/2.768b13bd.chunk.js.map": "/App-Laaps/static/js/2.768b13bd.chunk.js.map",
+    "static/js/2.e4f86bcc.chunk.js": "/App-Laaps/static/js/2.e4f86bcc.chunk.js",
+    "static/js/2.e4f86bcc.chunk.js.map": "/App-Laaps/static/js/2.e4f86bcc.chunk.js.map",
     "index.html": "/App-Laaps/index.html",
-    "precache-manifest.a6dfa5388d9a2d665aca88a8d0a667aa.js": "/App-Laaps/precache-manifest.a6dfa5388d9a2d665aca88a8d0a667aa.js",
+    "precache-manifest.ac1cd91fc921355cedbada51cb2172d6.js": "/App-Laaps/precache-manifest.ac1cd91fc921355cedbada51cb2172d6.js",
     "service-worker.js": "/App-Laaps/service-worker.js",
-    "static/css/main.4f03d9c7.chunk.css.map": "/App-Laaps/static/css/main.4f03d9c7.chunk.css.map",
-    "static/js/2.768b13bd.chunk.js.LICENSE.txt": "/App-Laaps/static/js/2.768b13bd.chunk.js.LICENSE.txt",
-    "static/media/LaapsIcon.svg": "/App-Laaps/static/media/LaapsIcon.1bcbadff.svg",
-    "static/media/LaapsText.svg": "/App-Laaps/static/media/LaapsText.f675fd48.svg",
+    "static/css/main.b2cccaf7.chunk.css.map": "/App-Laaps/static/css/main.b2cccaf7.chunk.css.map",
+    "static/js/2.e4f86bcc.chunk.js.LICENSE.txt": "/App-Laaps/static/js/2.e4f86bcc.chunk.js.LICENSE.txt",
     "static/media/arrow_back.svg": "/App-Laaps/static/media/arrow_back.a3ac0ac1.svg",
     "static/media/card.svg": "/App-Laaps/static/media/card.ca90785c.svg",
+    "static/media/laaps.svg": "/App-Laaps/static/media/laaps.c6b19283.svg",
     "static/media/men.png": "/App-Laaps/static/media/men.42f3dd91.png"
   },
   "entrypoints": [
     "static/js/runtime-main.19f9a573.js",
-    "static/js/2.768b13bd.chunk.js",
-    "static/css/main.4f03d9c7.chunk.css",
-    "static/js/main.05740d12.chunk.js"
+    "static/js/2.e4f86bcc.chunk.js",
+    "static/css/main.b2cccaf7.chunk.css",
+    "static/js/main.b84d8d2e.chunk.js"
   ]
 }
