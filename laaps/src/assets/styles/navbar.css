@@ -1,0 +1,5 @@
+.transparent {
+    background-color: transparent !important;
+    align-items: center!important;
+    padding: 10px;
+}

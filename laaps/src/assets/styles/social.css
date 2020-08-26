@@ -1,0 +1,11 @@
+.is-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: rgba(0,0,0,.2);
+}
+
+.is-google {
+    color: #fff;
+    background-color: #dd4b39;
+    border-color: rgba(0,0,0,.2);
+}

@@ -1,0 +1,13 @@
+.radius {
+    border-radius: 10px;
+}
+
+.card-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.no-border {
+    border: 0;
+}
+

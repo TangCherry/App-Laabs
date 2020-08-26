@@ -25,9 +25,40 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Laaps</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
   </head>
-  <body>
+  <body class="background-login has-navbar-fixed-top">
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          appId: '236681057552767',
+          cookie: true,
+          xfbml: true,
+          version: 'v8.0',
+        });
+
+        FB.AppEvents.logPageView();
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+          return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -40,5 +71,28 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script>
+
+    <!-- <script>
+      // Your web app's Firebase configuration
+      let firebaseConfig = {
+        apiKey: "AIzaSyAIC6XxuKDRZfjwuxwFtq4ZUzC8B9UE7MY",
+        authDomain: "app-labs-ed878.firebaseapp.com",
+        databaseURL: "https://app-labs-ed878.firebaseio.com",
+        projectId: "app-labs-ed878",
+        storageBucket: "app-labs-ed878.appspot.com",
+        messagingSenderId: "704826935556",
+        appId: "1:704826935556:web:1ad295b9e7a9b773da6851",
+        measurementId: "G-NNH6T8GG75",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script> -->
   </body>
 </html>
